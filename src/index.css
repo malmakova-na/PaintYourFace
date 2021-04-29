@@ -1,0 +1,51 @@
+html{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 21px;
+}
+#root{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:15px;
+  
+}
+#save{
+  background-color: gold;
+}
+.header{
+  font-size: 50px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+.picture{
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px 2px 10px;
+    border: 2px solid#CFD0CF;
+    cursor: pointer;
+  }
+ 
+.selected{
+  border: 2px solid gold !important;
+}
+ 
+body{
+ /*background: linear-gradient(240deg, #6d9fce, #61a0c9, #55a3c4, #4aa7bf, #3fadba, #35b3b5, #2bb0a5, #22ab93);*/
+ background-image: url('./components/images/gradient4.png');
+}
+#loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ width: 100%;
+  height: 100%;
+  grid-column: 1/12;
+  z-index: 10;
+  position: absolute;
+  background: rgba( 74, 144, 226, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+  /*left: 50%;
+  top: 50%;*/
+}

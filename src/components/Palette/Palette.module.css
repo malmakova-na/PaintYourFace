@@ -1,0 +1,22 @@
+.colorButton{
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: solid 1px #434344;
+    margin: auto;
+}
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #aaa;
+  height: 450px;
+  width: 80px;
+  
+}
+/*
+height: 25vw;
+  width: 5vw;
+height: 450px;
+  width: 80px;
+*/

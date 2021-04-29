@@ -1,0 +1,31 @@
+.background,
+.webcam{
+ 
+ /* width: 700px !important;
+ height: 800px !important;*/
+  width: 35vw !important;
+  height: 44vw !important;
+  object-fit: cover;
+  margin: 5px;
+}
+.faceCanvas{
+    position: absolute;
+    width: 35vw !important;
+    height: 44vw !important;
+    object-fit: cover;
+    margin: auto;
+    
+}
+.camera{
+    display: flex;
+    flex-wrap: nowrap;
+    grid-column:2/6
+}
+.webcam {
+
+  transform: scaleX(-1);
+  transition: opacity 330ms ease-in-out;
+}
+.faceCanvas {
+  transform: scaleX(-1);
+}
