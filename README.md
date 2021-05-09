@@ -1,5 +1,7 @@
 # PaintYourFace
 In this application you can paint your face in real time
+## Demo
+You can try the demo version of the app [here](https://paint-your-face-5jm18innm-malmakova-na.vercel.app/)
 ## How to use 
 You need to draw a picture using a graphic editor. Then save it by clicking the appropriate button. Click on this image in the gallery, it will be superimposed as a mask.
 ## Functionality
@@ -18,5 +20,3 @@ When you hover over the image, you can:
  1. Download the repository
  2. Go to the local repository via the console, then enter `npm run start`
  3. Enjoy!
-## Demo
-You can try the demo version of the app [here](https://paint-your-face-5jm18innm-malmakova-na.vercel.app/)
