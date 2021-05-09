@@ -19,4 +19,4 @@ When you hover over the image, you can:
  2. Go to the local repository via the console, then enter `npm run start`
  3. Enjoy!
 ## Demo
-You can view the demo version of the app [here](https://paint-your-face-5jm18innm-malmakova-na.vercel.app/)
+You can try the demo version of the app [here](https://paint-your-face-5jm18innm-malmakova-na.vercel.app/)
