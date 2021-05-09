@@ -50,17 +50,6 @@ export default class FacePaint {
   
 	  _addGeometry() {
 		  this._geometry = new THREE.BufferGeometry();
-	  // const EV = FacePaint.EYE_VERTICES;
-	  // for(let i = TRIANGULATION.length - 1; i > -1; i-=3) {
-	  //   const a = TRIANGULATION[i];
-	  //   const b = TRIANGULATION[i - 1];
-	  //   const c = TRIANGULATION[i - 2];
-	  //   if(EV.indexOf(a) !== -1 ||
-	  //      EV.indexOf(b) !== -1 ||
-	  //      EV.indexOf(c) !== -1) {
-	  //     TRIANGULATION.splice(i - 2, 3);
-	  //   }
-	  // }
 		  this._geometry.setIndex(TRIANGULATION);
 		  this._geometry.setAttribute('position', new THREE.Float32BufferAttribute(positionBufferData, 3));
 		  this._geometry.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
@@ -70,10 +59,8 @@ export default class FacePaint {
 	  _addMaterial() {
 		  this._textureLoader = new THREE.TextureLoader();
 		  const texture = this._textureLoader.load(this._textureFilePath);
-		  // set the "color space" of the texture
 		  texture.encoding = THREE.sRGBEncoding;
   
-		  // reduce blurring at glancing angles
 		  texture.anisotropy = 16;
 		  const alpha = 0.01;
 		  const beta = 0.01;

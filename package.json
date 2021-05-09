@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "image-downloader": "^4.0.2",
     "konva": "^7.2.5",
     "mdb-react-ui-kit": "^1.0.0-beta3",
     "react": "^17.0.2",

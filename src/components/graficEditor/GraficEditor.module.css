@@ -1,0 +1,48 @@
+.canvasTools {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.canvasTools>Button {
+    margin: 10px;
+}
+
+.canvasTools {
+    padding: 10px;
+}
+
+.paintWrapper {
+    grid-column: 7/12;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.painter {
+    border: solid 1px #aaa !important;
+    cursor: default;
+    width: 450px !important;
+    height: 450px !important;
+}
+
+.facePattern {
+    width: 450px !important;
+    height: 450px !important;
+    position: absolute;
+    z-index: -10;
+    margin-left: 154px
+}
+
+.graficEditor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.canvas__heading {
+    font-size: 30px;
+    text-align: center;
+}
