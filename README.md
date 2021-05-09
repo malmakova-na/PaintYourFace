@@ -17,5 +17,6 @@ When you hover over the image, you can:
 ## How to start
  1. Download the repository
  2. Go to the local repository via the console, then enter `npm run start`
-Enjoy!
+ 3. Enjoy!
 ## Demo
+You can view the demo version of the app [here](https://paint-your-face-5jm18innm-malmakova-na.vercel.app/)
